@@ -43,7 +43,7 @@ Usar Postman o Insomnia:
 
    ![Screenshot_20210415_124803](https://user-images.githubusercontent.com/5600076/114915262-f4cd4980-9de8-11eb-818f-c944a6e40097.png)
    
-9. Loguarse al ACR usando Helm:
+9. Loguearse al ACR usando Helm:
    ```
    helm registry login xxxxxx.azurecr.io --username miusuario --password xxxxxxxxxxxxxxxx
    ```
