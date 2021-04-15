@@ -42,3 +42,17 @@ Usar Postman o Insomnia:
 8. Validación:
 
    ![Screenshot_20210415_124803](https://user-images.githubusercontent.com/5600076/114915262-f4cd4980-9de8-11eb-818f-c944a6e40097.png)
+   
+9. Loguarse al ACR usando Helm:
+   ```
+   helm registry login xxxxxx.azurecr.io --username miusuario --password xxxxxxxxxxxxxxxx
+   ```
+   Dentro del dir k8s donde esta el chart:
+   ```
+   helm chart save . chart-app-api-rest:v1
+   helm chart save . rmragasa.azurecr.io/helm/chart-app-api-rest:v1
+   helm chart push rmragasa.azurecr.io/helm/chart-app-api-rest:v1
+   ```
+   Para distinguir los Chart de las Imagenes de Aplicación, usamos un prefijo "helm/chart".
+   
+   
