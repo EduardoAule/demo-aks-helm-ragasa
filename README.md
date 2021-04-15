@@ -34,3 +34,6 @@ Usar Postman o Insomnia:
    
    ![Screenshot_20210415_124608](https://user-images.githubusercontent.com/5600076/114914992-a5871900-9de8-11eb-8edb-fec6946cd2cd.png)
 
+8. Validación:
+
+  ![Screenshot_20210415_124803](https://user-images.githubusercontent.com/5600076/114915262-f4cd4980-9de8-11eb-818f-c944a6e40097.png)
