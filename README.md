@@ -6,11 +6,13 @@ Aplicación que expone dos endpoints:
 
 # Instalación
 Dentro del proyecto:
-
+```
   npm install
-
+```
 # Ejecución
+```
   npm run dev
+```
 
 # Validación
 Hacer un GET a url/
@@ -25,15 +27,18 @@ Usar Postman o Insomnia:
 5. Creación e instalación del myacr.yaml:
    https://kubernetes.io/docs/tasks/configure-pod-container/pull-image-private-registry/
 6. Hacer el despligue de la app con Helm, estar dentro del dir. k8s:
+```
    helm install --set service.port=3000,image.tag=v1 app-api-rest ./app-api-rest
-   
+```
    ![Screenshot_20210415_124005](https://user-images.githubusercontent.com/5600076/114914319-c4d17680-9de7-11eb-83ac-00f63c4adfa1.png)
 
 7. Exponer el Service para consultarlo con Postman/Insomnia:
+   ```
    kubectl port-forward svc/app-api-rest 3000:3000
+   ```
    
    ![Screenshot_20210415_124608](https://user-images.githubusercontent.com/5600076/114914992-a5871900-9de8-11eb-8edb-fec6946cd2cd.png)
 
 8. Validación:
 
-  ![Screenshot_20210415_124803](https://user-images.githubusercontent.com/5600076/114915262-f4cd4980-9de8-11eb-818f-c944a6e40097.png)
+   ![Screenshot_20210415_124803](https://user-images.githubusercontent.com/5600076/114915262-f4cd4980-9de8-11eb-818f-c944a6e40097.png)
