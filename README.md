@@ -50,9 +50,10 @@ Usar Postman o Insomnia:
    Dentro del dir k8s donde esta el chart:
    ```
    helm chart save . chart-app-api-rest:v1
-   helm chart save . rmragasa.azurecr.io/helm/chart-app-api-rest:v1
-   helm chart push rmragasa.azurecr.io/helm/chart-app-api-rest:v1
+   helm chart save . xxxxxxx.azurecr.io/helm/chart-app-api-rest:v1
+   helm chart push xxxxxxx.azurecr.io/helm/chart-app-api-rest:v1
    ```
    Para distinguir los Chart de las Imagenes de Aplicación, usamos un prefijo "helm/chart".
-   
+ 
+ 10. Revisar su Azure Container Registry.
    
