@@ -1,4 +1,12 @@
 # demo-aks-helm-ragasa
+# Requerimientos
+Es necesario datos de Storage Account en Azure:
+1. Nombre del Storage Account.
+2. Nombre del contenedor creado dentro de Storage.
+3. Obtener el AZURE_STORAGE_ACCESS_KEY de dicho Storage.
+4. Dentro de la estructura de la app, ir al directorio config/storage.js
+   y reemplazar los valores indicados.
+
 # App Node JS
 Aplicación que expone dos endpoints:
 
