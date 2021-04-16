@@ -2,9 +2,8 @@
 # App Node JS
 Aplicación que expone dos endpoints:
 
-/ -> Regresa un status Ok.
-
-/blobs -> Regresa una lista de archivos de un StorageAccount.
+http://127.0.0.1:3000/ -> Regresa un status Ok.
+http://127.0.0.1:3000/blobs -> Regresa una lista de archivos de un StorageAccount.
 
 # Instalación
 Dentro del proyecto:
